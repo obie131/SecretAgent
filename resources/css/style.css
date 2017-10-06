@@ -68,3 +68,68 @@ nav ul{
   list-style: none;
   padding 0.75em 0;
 }
+
+/*-----------------------------------------------
+          Products
+-----------------------------------------------*/
+
+.products{
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 4em;
+}
+
+.product-image{
+  border: 4px solid black;
+  padding: 2em 0;
+  height: 9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image img{
+  max-width: 10em;
+
+}
+.description{
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+}
+
+/*--------------------------------------------------
+              Business Styling
+----------------------------------------------------*/
+.business{
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 4em ;
+}
+.info{
+  width: 30%;
+
+}
+.info .title{
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1em 2em;
+
+}
+
+/*-------------------------------------------------------
+                  Footer
+---------------------------------------------------------*/
+footer{
+  background-color: black;
+  height: 10em;
+  color: white;
+  margin-top: 4em;
+  padding: 5em 0px;
+
+
+
+}
