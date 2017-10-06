@@ -4,6 +4,7 @@ html{
 body{
   font-family: Helvetica, sans-serif;
   line-height: 1.5em;
+  color: white;
 }
 
 .container{
@@ -17,7 +18,7 @@ body{
 
 .company-info{
   background-color: black;
-  color: white;
+
 
 }
 .company-info .container{
@@ -45,11 +46,11 @@ body{
 
 .headline{
   background-color: black;
-  color: white;
   width: 20em;
   position: relative;
-  top: 8em;
+  top: 9em;
   padding: 2em 3em;
+  line-height: 2em;
 
 }
 
@@ -58,7 +59,7 @@ body{
 -----------------------------------------------*/
 nav{
   background-color: darkred;
-  color: white;
+  padding: 0.5em 0;
 
 }
 nav ul{
@@ -67,7 +68,9 @@ nav ul{
   justify-content: space-between;
   list-style: none;
   padding 0.75em 0;
+
 }
+
 
 /*-----------------------------------------------
           Products
@@ -86,6 +89,7 @@ nav ul{
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .product-image img{
@@ -95,7 +99,6 @@ nav ul{
 .description{
   display: block;
   background-color: black;
-  color: white;
   text-align: center;
   padding: 0.5em;
 }
@@ -109,15 +112,18 @@ nav ul{
   margin: 3em 4em ;
 }
 .info{
-  width: 30%;
+  width: 20%;
 
 }
 .info .title{
   display: block;
   background-color: black;
-  color: white;
   padding: 1em 2em;
+  color: white;
 
+}
+.info span{
+  color: black;
 }
 
 /*-------------------------------------------------------
@@ -125,8 +131,7 @@ nav ul{
 ---------------------------------------------------------*/
 footer{
   background-color: black;
-  height: 10em;
-  color: white;
+  height: 1em;
   margin-top: 4em;
   padding: 5em 0px;
 
